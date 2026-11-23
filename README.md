@@ -117,8 +117,15 @@ The candidate solver evaluates hundreds of mix combinations against competing ob
 ## 4. User Interface & Live Dashboard
 
 The frontend is an industrial-themed, responsive dashboard built with **React 18**, **TypeScript**, and **TailwindCSS**, featuring custom domain-accurate SVG engineering pictograms.
-
-![Dashboard Preview](docs/images/dashboard-preview.jpg)
+<img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/d70513f6-4a21-497e-92b5-8ed276056b94" />
+<img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/9e9aa102-f483-405e-a87c-678fca53f436" />
+<img width="1917" height="866" alt="image" src="https://github.com/user-attachments/assets/d43166d4-e616-4c39-a15d-ecc5722fab3f" />
+<img width="1916" height="922" alt="image" src="https://github.com/user-attachments/assets/4941828d-a53e-4a4f-9df6-09f2a1b6a075" />
+<img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/fa1e7544-6b31-4036-a59b-7aea35189273" />
+<img width="1916" height="880" alt="image" src="https://github.com/user-attachments/assets/6f070fc8-ee12-4cff-a9e1-4754300945dc" />
+<img width="1917" height="965" alt="image" src="https://github.com/user-attachments/assets/5b826730-2562-4e68-a1ed-97094e6f2554" />
+<img width="1917" height="866" alt="image" src="https://github.com/user-attachments/assets/0364dd7b-3550-41cb-b851-c3ad8820936c" />
+<img width="1917" height="960" alt="image" src="https://github.com/user-attachments/assets/08e5704b-cc35-4648-aff6-42fa66871808" />
 
 ### UI Functional Modules:
 1. **Executive Operational KPIs**:
