@@ -1,0 +1,2 @@
+Hello World from Antigravity!
+Direct file creation and updates in WSL directory \\wsl.localhost\Ubuntu-24.04\home\sanjana\acc-rmc-ai-platform\ are working correctly.

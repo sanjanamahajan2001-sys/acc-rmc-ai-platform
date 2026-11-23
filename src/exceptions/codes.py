@@ -1,0 +1,50 @@
+"""Error Code Taxonomy and Registry.
+
+This module defines the central human-readable error code registry for the ACC RMC AI Platform.
+It standardizes error codes across system, batch operational, FT7 laboratory, Excel ingestion,
+AI prediction, and security subsystems.
+"""
+
+from enum import Enum
+
+
+class ErrorCode(str, Enum):
+    """Central Platform Human-Readable Error Code Registry."""
+
+    # 1. System & Input Validation
+    ACC_SYS_INTERNAL_ERROR = "ACC_SYS_INTERNAL_ERROR"
+    ACC_SYS_VALIDATION_FAILED = "ACC_SYS_VALIDATION_FAILED"
+    ACC_INFRA_FAILURE = "ACC_INFRA_FAILURE"
+
+    # 2. Batch & Operations
+    ACC_BATCH_INVALID_STATE = "ACC_BATCH_INVALID_STATE"
+    ACC_BATCH_DOSING_VARIANCE_EXCEEDED = "ACC_BATCH_DOSING_VARIANCE_EXCEEDED"
+    ACC_BATCH_DUPLICATE_CHALLAN = "ACC_BATCH_DUPLICATE_CHALLAN"
+    ACC_BATCH_NOT_FOUND = "ACC_BATCH_NOT_FOUND"
+
+    # 3. FT7 Laboratory & QA
+    ACC_QA_DISPOSITION_REJECTED = "ACC_QA_DISPOSITION_REJECTED"
+    ACC_QA_INVALID_CUBE_AGE = "ACC_QA_INVALID_CUBE_AGE"
+
+    # 4. Excel Ingestion & Parser
+    ACC_INGEST_FAILURE = "ACC_INGEST_FAILURE"
+    ACC_INGEST_ANCHOR_MISSING = "ACC_INGEST_ANCHOR_MISSING"
+    ACC_INGEST_DEUNIFY_FAILED = "ACC_INGEST_DEUNIFY_FAILED"
+
+    # 5. Data & Storage Infrastructure
+    ACC_DB_FAILURE = "ACC_DB_FAILURE"
+    ACC_DB_CONNECTION_FAILED = "ACC_DB_CONNECTION_FAILED"
+    ACC_DB_CONSTRAINT_VIOLATION = "ACC_DB_CONSTRAINT_VIOLATION"
+
+    # 6. AI & Optimization
+    ACC_AI_FAILURE = "ACC_AI_FAILURE"
+    ACC_AI_MODEL_NOT_FOUND = "ACC_AI_MODEL_NOT_FOUND"
+    ACC_AI_OPTIMIZER_DIVERGED = "ACC_AI_OPTIMIZER_DIVERGED"
+
+    # 7. Security & Permissions
+    ACC_SEC_FAILURE = "ACC_SEC_FAILURE"
+    ACC_SEC_AUTHENTICATION_REQUIRED = "ACC_SEC_AUTHENTICATION_REQUIRED"
+    ACC_SEC_PERMISSION_DENIED = "ACC_SEC_PERMISSION_DENIED"
+
+    # 8. Background Orchestration
+    ACC_SCHEDULER_FAILURE = "ACC_SCHEDULER_FAILURE"

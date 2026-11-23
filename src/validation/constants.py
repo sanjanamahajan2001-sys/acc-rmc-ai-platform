@@ -1,0 +1,28 @@
+"""Validation Package Core Constants.
+
+This module provides standard error code formats, default domain boundaries, and threshold constants for WS-03.3.
+"""
+
+# Error Code Formats
+ERR_CODE_PREFIX = "ACC_VAL_"
+WARN_CODE_PREFIX = "ACC_WARN_"
+
+# Quality Score Weights
+WEIGHT_CRITICAL_PENALTY = 100.0
+WEIGHT_ERROR_PENALTY = 25.0
+WEIGHT_WARNING_PENALTY = 5.0
+WEIGHT_INFO_PENALTY = 0.0
+
+# Physical Domain Concrete Boundaries
+DEFAULT_SLUMP_MIN_MM = 0.0
+DEFAULT_SLUMP_MAX_MM = 280.0
+DEFAULT_WC_RATIO_MIN = 0.25
+DEFAULT_WC_RATIO_MAX = 0.70
+DEFAULT_CEMENT_MIN_KG = 100.0
+DEFAULT_CEMENT_MAX_KG = 800.0
+DEFAULT_WATER_MIN_KG = 50.0
+DEFAULT_WATER_MAX_KG = 350.0
+DEFAULT_STRENGTH_28D_MIN_MPA = 5.0
+DEFAULT_STRENGTH_28D_MAX_MPA = 120.0
+DEFAULT_TEMP_MIN_C = 5.0
+DEFAULT_TEMP_MAX_C = 50.0

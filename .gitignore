@@ -1,0 +1,88 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+ENV/
+
+# Frontend
+node_modules/
+dist/
+build/
+.vite/
+.next/
+.nuxt/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.dump
+*.bak
+
+# Operational data and spreadsheets
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.csv
+*.parquet
+*.feather
+
+# Local and generated directories
+data/
+datasets/
+runtime/
+backups/
+exports/
+uploads/
+trained_models/
+scratch/
+tmp/
+temp/
+
+# Archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# Logs and generated analysis
+*.log
+logs/
+full_raw_analysis.json
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Windows filesystem artifacts
+C:/
+
+# Test artifacts
+coverage/
+playwright-report/
+test-results/
